@@ -1,12 +1,18 @@
 // Iteration #1: Find the maximum
+var meuArray= [13,127];
+var maior = Math.max.apply(null, meuArray );
+document.getElementById( 'resultado' ).innerHTML = maior;
 
 
 // Iteration #2: Find longest word
-const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
+const arrayWords = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
+console.log(arrayWords{3})
 
 // Iteration #3: Calculate the sum
+let sum = const numbers(){
+ 
+const numbers = (6, 12, 1, 18, 13, 16, 2, 1, 8, 10);}
 
-const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
 // Iteration #4: Calculate the average
 // Level 1: Array of numbers
@@ -29,6 +35,10 @@ const wordsUnique = [
   'simple',
   'bring'
 ];
+let const wordsUnique = array.slice(0);
+console.log(const wordsUnique);
+console.log(array);
+
 
 // Iteration #6: Find elements
 const wordsFind = ['machine', 'subset', 'trouble', 'starting', 'matter', 'eating', 'truth', 'disobedience'];
