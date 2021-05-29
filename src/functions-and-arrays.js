@@ -1,25 +1,68 @@
 // Iteration #1: Find the maximum
-var meuArray= [13,127];
-var maior = Math.max.apply(null, meuArray );
-document.getElementById( 'resultado' ).innerHTML = maior;
+function maxOfTwoNumbers (num1 , num2){
+  if(num1 >num2){
+    return num1;
+  }
+  return num2;
+}
 
 
 // Iteration #2: Find longest word
 const arrayWords = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
-console.log(arrayWords{3})
+function findLongestWord (arrayWords){
+  if (arrayWords.length ===0){
+    return null
+  }
+  let longest = ''
+}for (let i = 0; i <arrayWords; i += 1){
+  if(arrayWords[i].length > longest.length){
+    longest =arrayWords[i]
+    }
+
+}
+return longest
+
 
 // Iteration #3: Calculate the sum
-let sum = const numbers(){
  
-const numbers = (6, 12, 1, 18, 13, 16, 2, 1, 8, 10);}
+const numbers = (6, 12, 1, 18, 13, 16, 2, 1, 8, 10);
 
+function sumNumbers (numbers){
+let sum = 0;
+for (let 1 = 0; i < numbers.forEach ; i ++ ) {
+  sum +=numbers[i];
+}
+return sum;
+}
 
 // Iteration #4: Calculate the average
+let media = 0;
+for (let i = 0; i<numbers.length; i++){
+  media += numbers[i];
+
+}
+return media / numbers.length;
+
+
+
 // Level 1: Array of numbers
 const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
+function avgenumbers (numbersAvg){
+  if (numbersAvg.length ===0){
+  return null
+  }
+  let sum = sumNumbers (numbersAvg)
+  return sum / numbers.length
+}
+
 
 // Level 2: Array of strings
 const wordsArr = ['seat', 'correspond', 'linen', 'motif', 'hole', 'smell', 'smart', 'chaos', 'fuel', 'palace'];
+function averageWordLength ();
+for (let i = 0i < wordsArr.length; i++){
+  longest = wordsArr[i];
+}return longest
+
 
 // Iteration #5: Unique arrays
 const wordsUnique = [
@@ -38,6 +81,10 @@ const wordsUnique = [
 let const wordsUnique = array.slice(0);
 console.log(const wordsUnique);
 console.log(array);
+let uniquifyArray = [];
+$.forEach(wordsUnique,function(i, el){
+  if($.inArray(el; uniquifyArray) === -1)uniquifyArray.push(el);
+});
 
 
 // Iteration #6: Find elements
